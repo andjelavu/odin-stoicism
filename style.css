@@ -1,0 +1,196 @@
+@font-face {
+  font-family: HKGrotesk;
+  src: url("../../../../HP/Downloads/HKGroteskWide_2020D/HKGroteskWide_2020D/OTF/HKGroteskWide-Regular.otf");
+}
+body {
+  background-image: url("jeremy-perkins-7S1yZoFcVV0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "HKGrotesk";
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  max-width: 900px;
+}
+.nav-bar {
+  display: flex;
+  box-shadow: 3px 22px 29px 2px;
+  flex: 1;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+.item {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+h4 {
+  font-weight: lighter;
+}
+.btn {
+  flex: display;
+  letter-spacing: -0.3px;
+  line-height: 100.4px;
+  min-height: 91px;
+  height: 108px;
+  width: 156px;
+  background-color: rgb(236, 242, 255);
+  border-radius: 126px;
+  padding: 63px 36px;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 30px;
+  font-weight: bolder;
+  top: 174px;
+  width: 177px;
+  overflow: hidden;
+  align-items: flex-start;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+.btn:hover {
+  opacity: 1;
+}
+.airplane {
+  background-image: url("airplane-png-27951.png");
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100%; 
+  position: absolute;
+  top: 50%; 
+  bottom: -100px;
+  right: -300px;
+  animation: fly 20s infinite; /* 10s is the animation duration, adjust based on your design */
+  z-index: 1;
+}
+
+@keyframes fly {
+  100% {
+    transform: translateX(
+      80%
+    ); /* move airplane to the right side of the screen */
+  }
+  100% {
+    transform: translateX(
+      80%
+    ); /* move airplane to the right side of the screen */
+  }
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#h {
+  margin-top: 50px;
+  padding-top: 90px;
+  padding-bottom: 0;
+  font-weight: bolder;
+}
+.flexitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+}
+.bk {
+  background-color: #f7f6f2;
+  height: 100vh;
+  margin-top: 200px;
+  background-size: cover;
+  width: 100%;
+}
+.container3 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8c6c6;
+}
+.container3 > h3 {
+  font-weight: 500;
+  font-size: x-large;
+  width: 900px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px;
+}
+.banner {
+  background-color: #4b6587;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-self: center;
+  margin-top: 40px;
+  width: 500px;
+  text-align: center;
+}
+
+.banner h2 {
+  flex: 1;
+  margin: 0;
+  font-size: 24px;
+}
+
+.banner button {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.banner-back {
+  background-color: #c8c6c6;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 300px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
